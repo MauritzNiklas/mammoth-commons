@@ -14,7 +14,7 @@ def data_graph_csv(
     path_edges: str = "",
     attributes: list[str] = []
 ) -> Graph_CSH:
-    """This loads the edges of a graph."""
+    """This loads the nodes and edges of a graph."""
     import pandas as pd
 
     nodes = pd.read_csv(path_nodes)
